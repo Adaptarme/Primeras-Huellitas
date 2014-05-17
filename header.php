@@ -22,7 +22,7 @@
                 <header role="banner"><!-- CABECERA -->
                         <div class="container"><!-- CONTENEDOR -->
                             <div class="sixteen columns">
-                                <nav class="clearfix der" role="navigation">
+                                <nav id="navigation-menu" class="clearfix der" role="navigation">
                                     <h3 class="ocultar"><?php _e('Menu', 'PH'); ?></h3>
                                     <?php //mostrar_menu('menu_principal'); ?>
                                     <ul id="navigation-menu">

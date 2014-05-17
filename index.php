@@ -31,6 +31,51 @@
 
 <div class="equipo" id="equipo"><!-- EQUIPO -->
     <h2>Conozca al equipo</h2>
+        <!-- Member -->
+    <div>
+      <img src="http://demo.mage-themes.com/wordpress/CandyQueen/wp-content/uploads/2014/03/team-member-3.png" alt="">
+      <h3>Mary Brown</h3>
+      <p><em>Favorite dessert <span>chocolate cupcake</span></em></p>
+      <p><strong>CEO</strong></p>
+
+      <ul>
+
+      
+      
+              <li><a href="https://twitter.com/envato" class="twitter">twitter</a></li>
+      
+              <li><a href="https://www.facebook.com/themeforest" class="facebook">facebook</a></li>
+      
+      
+      
+      </ul>
+
+    </div>
+    <!-- Member Ends! -->
+
+  
+    <!-- Member -->
+    <div>
+      <img src="http://demo.mage-themes.com/wordpress/CandyQueen/wp-content/uploads/2014/03/team-member-3.png" alt="">
+      <h3>Jane Doe</h3>
+      <p><em>Favorite dessert <span>chocolate cupcake</span></em></p>
+      <p><strong>food stylist</strong></p>
+
+      <ul>
+
+              <li><a href="https://plus.google.com/+themeforest/posts" class="google">google+</a></li>
+      
+      
+              <li><a href="https://twitter.com/envato" class="twitter">twitter</a></li>
+      
+              <li><a href="https://www.facebook.com/themeforest" class="facebook">facebook</a></li>
+      
+      
+      
+      </ul>
+
+    </div>
+    <!-- Member Ends! -->
 </div><!-- /EQUIPO -->
 
 <div class="contacto clearfix" id="contacto"><!-- CONTACTO -->

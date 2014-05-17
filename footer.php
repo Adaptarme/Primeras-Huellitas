@@ -1,6 +1,6 @@
             </div><!-- /CONTENIDO -->
             <footer role="contentinfo"><!-- PIE -->
-                <p><?php echo date('Y'); ?> &COPY; Primeras Huellitas</p>
+                <p><small>Desarrollado con <img src="http://adaptarme.com.ar/wp-content/themes/1.0/img/amor.png" title="amor"> por <a href="http://Adaptarme.com.ar">Adapar.ME</a></small></p>
             </footer><!-- /PIE -->
         </div><!-- /CONTENEDOR -->
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
