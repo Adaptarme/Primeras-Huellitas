@@ -10,10 +10,24 @@ Correo: adaptarme@gmail.com
 
 /* #Mixins
 ================================================== */
+.box-sizing (@entrada: border-box) {
+    -webkit-box-sizing: @entrada;
+    -moz-box-sizing: @entrada;
+    -ms-box-sizing: @entrada;
+    -o-box-sizing: @entrada;
+    box-sizing: @entrada;
+}
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
 .box-shadow () {
     -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-    -ms-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    -ms-box-shadow: 0 1px 4zpx rgba(0,0,0,.2);
     -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
     box-shadow: 0 1px 4px rgba(0,0,0,.2);
 }

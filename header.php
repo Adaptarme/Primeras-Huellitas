@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title><?php wp_title('/', true, 'right'); ?></title>
+        <title><?php wp_title(''); ?></title>
         <meta name="description" content="Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
         <meta name="author" content="Adaptar.ME">
         <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -16,20 +16,6 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/skeleton.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.flexslider.css">
         <link rel="stylesheet/less" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/layout.less">
-        <script>
-  less = {
-    env: "development",
-    async: false,
-    fileAsync: false,
-    poll: 1000,
-    functions: {},
-    dumpLineNumbers: "comments",
-    relativeUrls: false,
-    rootpath: ":/a.com/"
-  };
-</script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
-
     </head>
     <body>
         <div class="background-header">
