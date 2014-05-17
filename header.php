@@ -26,14 +26,13 @@
                                     <h3 class="ocultar"><?php _e('Menu', 'PH'); ?></h3>
                                     <?php //mostrar_menu('menu_principal'); ?>
                                     <ul id="navigation-menu">
-                                        <li><a href="#nosotros">Nosotros</a></li>
                                         <li><a href="#servicios">Servicios</a></li>
                                         <li><a href="#equipo">Equipo</a></li>
                                         <li><a href="#contacto">Contacto</a></li>
                                     </ul>
                                 </nav>
                             </div>
-                            <h1><a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="scale-with-grid"/></a></h1>
+                            <h1><a href="#top"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="scale-with-grid"/></a></h1>
                         </div>
                 </header><!-- /CABECERA -->
         </div>

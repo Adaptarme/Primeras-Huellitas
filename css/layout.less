@@ -75,7 +75,7 @@ header[role="banner"] {
             a {
                 float: left;
                 color: #595959;
-                &:hover { color: #e93478; }
+                &:hover, &.mPS2id-highlight { color: #e93478; }
             }
         }
         .current-menu-item > a, .current-menu-ancestor > a, .current_page_item > a, .current_page_ancestor > a { color: #e93478; }
@@ -270,4 +270,47 @@ footer[role="contentinfo"] {
     text-align: center;
     padding: 0 10%;
     margin-bottom: 40px;
+}
+
+
+#equipo {
+    p {
+        margin-bottom: 7px;
+        span { color: #e93478; }
+        strong {
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+    }
+    ul { display: block; margin: 0 auto; }
+    ul li { display: inline-block; }
+    img { float: left; margin-right: 16px; }
+    ul li a {
+        display: block;
+        text-indent: -9999px;
+        width: 26px;
+        height: 26px;
+        background-image: url(images/icons-sprite.png);
+        background-repeat: no-repeat;
+        margin: 0 2px;
+        overflow: hidden;
+    }
+    ul li a.google { background-position: 0 -80px; }
+    ul li a.google:hover { background-position: 0 -108px; }
+    ul li a.linkedin { background-position: -28px -80px; }
+    ul li a.linkedin:hover { background-position: -28px -108px; }
+    ul li a.facebook { background-position: -84px -80px; }
+    ul li a.facebook:hover { background-position: -84px -108px; }
+    ul li a.twitter { background-position: -56px -80px; }
+    ul li a.twitter:hover { background-position: -56px -108px; }
+    ul li a.pinterest { background-position: -112px -80px; }
+    ul li a.pinterest:hover { background-position: -112px -108px; }
+    ul li a.instagram { background-position: -140px -79px; }
+    ul li a.instagram:hover { background-position: -140px -107px; }
+    div {
+        float: left;
+        width: 46%;
+        padding: 0 2%;
+        margin-bottom: 50px;
+    }
 }

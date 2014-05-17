@@ -5,7 +5,7 @@
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2foto.jpg" class="scale-with-grid" /></li>
     </ul>
 </div>
-<div class="nosotros clearfix" id="nosotros"><!-- NOSOTROS -->
+<div class="nosotros clearfix"><!-- NOSOTROS -->
     <p>Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo.<br/>
     <em>“Trabajar con amor, deja HUELLAS que marcan el futuro de los niños”...</em></p>  
 </div><!-- /NOSOTROS -->
@@ -29,12 +29,12 @@
     </div>
 </div><!-- /SERVICIO -->
 
-<div class="equipo" id="equipo"><!-- EQUIPO -->
+<div class="equipo clearfix" id="equipo"><!-- EQUIPO -->
     <h2>Conozca al equipo</h2>
         <!-- Member -->
     <div>
       <img src="http://demo.mage-themes.com/wordpress/CandyQueen/wp-content/uploads/2014/03/team-member-3.png" alt="">
-      <h3>Mary Brown</h3>
+      <h3>Tamara Barros</h3>
       <p><em>Favorite dessert <span>chocolate cupcake</span></em></p>
       <p><strong>CEO</strong></p>
 
@@ -57,7 +57,7 @@
     <!-- Member -->
     <div>
       <img src="http://demo.mage-themes.com/wordpress/CandyQueen/wp-content/uploads/2014/03/team-member-3.png" alt="">
-      <h3>Jane Doe</h3>
+      <h3>Nara Sanchez</h3>
       <p><em>Favorite dessert <span>chocolate cupcake</span></em></p>
       <p><strong>food stylist</strong></p>
 
