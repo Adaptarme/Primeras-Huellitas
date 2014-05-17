@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title><?php wp_title('/', true, 'right'); ?></title>
+        <meta name="description" content="Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
+        <meta name="author" content="Adaptar.ME">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="<?php echo get_bloginfo('pingback_url'); ?>">
+        <link rel="alternate" type="application/rss+xml" title="RSS 2.0 Feed" href="<?php echo get_bloginfo('rss2_url'); ?>">
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Indie+Flower'>
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/base.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/skeleton.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.flexslider.css">
+        <link rel="stylesheet/less" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/layout.less">
+        <script>
+  less = {
+    env: "development",
+    async: false,
+    fileAsync: false,
+    poll: 1000,
+    functions: {},
+    dumpLineNumbers: "comments",
+    relativeUrls: false,
+    rootpath: ":/a.com/"
+  };
+</script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+
+    </head>
+    <body>
+        <div class="background-header">
+                <header role="banner"><!-- CABECERA -->
+                        <div class="container"><!-- CONTENEDOR -->
+                            <div class="sixteen columns">
+                                <nav class="clearfix der" role="navigation">
+                                    <h3 class="ocultar"><?php _e('Menu', 'PH'); ?></h3>
+                                    <?php //mostrar_menu('menu_principal'); ?>
+                                    <ul id="navigation-menu">
+                                        <li><a href="#nosotros">Nosotros</a></li>
+                                        <li><a href="#servicios">Servicios</a></li>
+                                        <li><a href="#equipo">Equipo</a></li>
+                                        <li><a href="#contacto">Contacto</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <h1><a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="scale-with-grid"/></a></h1>
+                        </div>
+                </header><!-- /CABECERA -->
+        </div>
+        <div class="container"><!-- CONTENEDOR -->
+            <div class="clearfix" role="main"><!-- CONTENIDO -->
