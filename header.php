@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html <?php language_attributes(); ?>>
     <head>
-        <meta charset="utf-8">
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title><?php wp_title(''); ?></title>
         <meta name="description" content="Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
         <meta name="author" content="Adaptar.ME">
         <link rel="profile" href="http://gmpg.org/xfn/11">
-        <link rel="pingback" href="<?php echo get_bloginfo('pingback_url'); ?>">
-        <link rel="alternate" type="application/rss+xml" title="RSS 2.0 Feed" href="<?php echo get_bloginfo('rss2_url'); ?>">
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
         <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Indie+Flower'>
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.css">
