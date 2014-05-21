@@ -3,7 +3,7 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title><?php wp_title(''); ?></title>
+        <title><?php wp_title('-'); ?></title>
         <meta name="description" content="Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
         <meta name="author" content="Adaptar.ME">
         <link rel="profile" href="http://gmpg.org/xfn/11">
