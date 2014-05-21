@@ -24,6 +24,7 @@
                                     <h3 class="ocultar"><?php _e('Menu', 'PH'); ?></h3>
                                     <?php //mostrar_menu('menu_principal'); ?>
                                     <ul id="navigation-menu">
+                                        <li><a href="#nosotros">Nosotros</a></li>
                                         <li><a href="#servicios">Servicios</a></li>
                                         <li><a href="#equipo">Equipo</a></li>
                                         <li><a href="#contacto">Contacto</a></li>

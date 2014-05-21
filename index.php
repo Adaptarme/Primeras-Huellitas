@@ -5,7 +5,7 @@
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2foto.jpg" class="scale-with-grid" /></li>
     </ul>
 </div>
-<div class="nosotros clearfix"><!-- NOSOTROS -->
+<div class="nosotros clearfix" id="nosotros"><!-- NOSOTROS -->
     <p>Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo.<br/>
     <em>“Trabajar con amor, deja HUELLAS que marcan el futuro de los niños”...</em></p>  
 </div><!-- /NOSOTROS -->

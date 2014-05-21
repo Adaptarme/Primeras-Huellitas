@@ -37,7 +37,7 @@ function mostrar_menu($theme_location = '') {
  * @param string $sep Optional separator.
  * @return string The filtered title.
  */
-function theme_name_wp_title( $title, $sep ) {
+function theme_ph_wp_title( $title, $sep ) {
     if ( is_feed() ) {
         return $title;
     }
@@ -60,4 +60,4 @@ function theme_name_wp_title( $title, $sep ) {
 
     return $title;
 }
-add_filter( 'wp_title', 'theme_name_wp_title', 10, 2 );
+add_filter( 'wp_title', 'theme_ph_wp_title', 10, 2 );
