@@ -7,6 +7,7 @@
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/less.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.flexslider.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.pagescroll2id.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js"></script>
     </body>
 </html>
