@@ -1,6 +1,6 @@
             </div><!-- /CONTENIDO -->
             <footer role="contentinfo"><!-- PIE -->
-                <p><small>Desarrollado con <img src="http://adaptarme.com.ar/wp-content/themes/1.0/img/amor.png" title="amor"> por <a href="http://Adaptarme.com.ar">Adapar.ME</a></small></p>
+                <p>Desarrollado con <span title="Amor">&#10084;</span> por <a href="http://adaptarme.com.ar">Adapar.ME</a></p>
             </footer><!-- /PIE -->
         </div><!-- /CONTENEDOR -->
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
