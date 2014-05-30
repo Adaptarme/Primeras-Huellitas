@@ -41,8 +41,6 @@ h1, h2, h3, h4, h5, h6 { font-family: @font-base; }
 /* #Header
 ================================================== */
 .background-header {
-    /*background: url('../img/border-bottom-header.png') repeat-x center bottom;*/
-    /*padding-bottom: 13px;*/
     position: fixed;
     z-index: 30;
     display: block;
@@ -56,7 +54,8 @@ header[role="banner"] {
         position: absolute;
         background: url('../img/background-logo.png') no-repeat 0 0;
         width: 394px;
-        height: 600px;
+        font-size: 64px;
+        line-height: 110px;
         a {
             padding: 75px;
             img { width: 240px; }
@@ -250,8 +249,7 @@ footer[role="contentinfo"] {
     .form{
         textarea, input {
             font-style: italic;
-            font-family: @font-base;
-            font-size: 17px;
+            font-size: 16px;
             color: #595959;
             float: left;
             background-color: #fff;
@@ -265,6 +263,20 @@ footer[role="contentinfo"] {
         font-family: @font-base;
         h4 { color: White; }
     }
+    input.button {
+        background: #c3d982;
+        color: #e93478;
+        cursor: pointer;
+        -webkit-text-shadow: 0 1px 0 #f7f8fa;
+        -moz-text-shadow: 0 1px 0 #f7f8fa;
+        text-shadow: 0 1px 0 #f7f8fa;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    input.button:hover { background: #b5d335; }
+
 }
 
 .descripcion {

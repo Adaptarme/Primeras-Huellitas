@@ -49,7 +49,7 @@
             <input type="text" name="name" value="" size="40" placeholder="nombre" />
             <input type="email" name="email" value="" size="40" placeholder="su correo electrónico" />
             <textarea name="message" rows="5" placeholder="escribe tu mensaje..."></textarea>
-            <input type="submit" value="enviar mi mensaje" />
+            <input class="button" type="submit" value="enviar mi mensaje" />
         </form>        
     </div>
     <div class="info seven columns">
