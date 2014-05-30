@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 <div class="flexslider clearfix">
     <ul class="slides">
-        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/1foto.jpg" class="scale-with-grid" /></li>
-        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2foto.jpg" class="scale-with-grid" /></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/01.jpg" class="scale-with-grid"/></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/02.jpg" class="scale-with-grid"/></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/03.jpg" class="scale-with-grid"/></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/04.jpg" class="scale-with-grid"/></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/05.jpg" class="scale-with-grid"/></li>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/06.jpg" class="scale-with-grid"/></li>
     </ul>
 </div>
 <div class="nosotros clearfix" id="nosotros"><!-- NOSOTROS -->
