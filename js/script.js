@@ -16,7 +16,7 @@ $(window).load(function() {
 });
 
 function initialize() {
-    var myLatlng = new google.maps.LatLng(-27.220268341198533, -61.191857540714295);
+    var myLatlng = new google.maps.LatLng(-27.220237334026375, -61.19179853211597);
     var map_options = {
       zoom: 16,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
