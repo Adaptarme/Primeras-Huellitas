@@ -18,18 +18,18 @@
     <h2>Servicios</h2>
     <div class="five columns">
         <i class="fa fa-check"></i>
-        <h3>Casita</h3>
-        <p>Contamos con un espacio, agradable que propicia la estimulación de sus sentidos y movimientos.</p>
+        <h3>Profesionales</h3>
+        <p>Nuestro personal está compuesto por profesoras en Educación Inicial.</p>
     </div>
         <div class="five columns">
         <i class="fa fa-star"></i>
-        <h3>Casita</h3>
-        <p>Contamos con un espacio, agradable que propicia la estimulación de sus sentidos y movimientos.</p>
+        <h3>Refrigerio</h3>
+        <p>Tenemos cocina propia dónde se preparan el desayuno (9.30 hs.) y el resfuerzo (11 hs.) para los niños.</p>
     </div>
     <div class="five columns">
         <i class="fa fa-heart"></i>
-        <h3>Casita</h3>
-        <p>Contamos con un espacio, agradable que propicia la estimulación de sus sentidos y movimientos.</p>
+        <h3>Videovigilania</h3>
+        <p>Nuestras instalaciones cuentan con cámaras de video vigilancia y supervisión de los centros mediante circuito cerrado, a nivel interno.</p>
     </div>
 </div><!-- /SERVICIO -->
 
