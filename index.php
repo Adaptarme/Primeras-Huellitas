@@ -31,6 +31,18 @@
         <h3>Videovigilania</h3>
         <p>Nuestras instalaciones cuentan con cámaras de video vigilancia y supervisión de los centros mediante circuito cerrado, a nivel interno.</p>
     </div>
+        <div class="five columns">
+        <h3>Profesionales</h3>
+        <p>Nuestro personal está compuesto por profesoras en Educación Inicial.</p>
+    </div>
+        <div class="five columns">
+        <h3>Refrigerio</h3>
+        <p>Tenemos cocina propia dónde se preparan el desayuno (9.30 hs.) y el resfuerzo (11 hs.) para los niños.</p>
+    </div>
+    <div class="five columns">
+        <h3>Videovigilania</h3>
+        <p>Nuestras instalaciones cuentan con cámaras de video vigilancia y supervisión de los centros mediante circuito cerrado, a nivel interno.</p>
+    </div>
 </div><!-- /SERVICIO -->
 
 <div class="map"><!-- MAP -->

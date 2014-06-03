@@ -26,11 +26,9 @@ function initialize() {
     }
 
     var map = new google.maps.Map(document.getElementById('map_canvas'), map_options)
-    var image = '<?php echo get_stylesheet_directory_uri(); ?>/img/icon-google-maps-marker.png';
     var marker = new google.maps.Marker({
       position: myLatlng,
-      map: map,
-      //icon: image
+      map: map
     });
 
     map.panBy(-230,0);
