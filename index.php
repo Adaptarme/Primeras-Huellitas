@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+get_header(); ?>
+
 <div class="flexslider clearfix">
     <ul class="slides">
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/01.jpg" class="scale-with-grid"/></li>
