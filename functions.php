@@ -61,3 +61,19 @@ function theme_ph_wp_title( $title, $sep ) {
     return $title;
 }
 add_filter( 'wp_title', 'theme_ph_wp_title', 10, 2 );
+
+
+function view_site_description(){
+    echo get_bloginfo( 'description', 'display' );
+    die();
+}
+add_action( 'wp_ajax_view_site_description', 'view_site_description' );
+add_action( 'wp_ajax_nopriv_view_site_description', 'view_site_description' );
+
+
+function send_message_contact() {
+    echo 'Mensaje enviado! :)';
+}
+add_action( 'wp_ajax_view_site_description', 'send_message_contact' );
+add_action( 'wp_ajax_nopriv_view_site_description', 'send_message_contact' );
+

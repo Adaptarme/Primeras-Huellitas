@@ -1,3 +1,37 @@
+
+$(document).ready(function() {
+
+  var ajaxUrl = 'wp-admin/admin-ajax.php';
+  
+  $("#contactForm").validate({
+    
+    rules: {
+      name: { required: true, minlength: 2 },
+      email: { required: true, email: true },
+      message: { required: true, minlength: 2 }
+    },
+    
+    messages: {
+      name: "Debe introducir su nombre.",
+      email : "Debe introducir un email válido.",
+      message : "El campo Mensaje es obligatorio.",
+    },
+    
+    submitHandler: function(form) { // en el evento submit del fomulario
+      //var urlForm = $(this).attr('action');  // la url del action del formulario
+      var datosForm = $(this).serialize(); // los datos del formulario
+      $.ajax({
+        type: "POST",
+        url: ajaxUrl,
+        data: { "action": "send_message_contact" },
+        //beforeSend: function() { $("#send").val('Enviando...'); },
+        //success: function(data) { $('#message').append(data); }
+        success: function(data){ alert(data); }
+      });
+    }
+  }); // .validate
+});
+
 $(window).load(function() {
 
 	$('.flexslider').flexslider({

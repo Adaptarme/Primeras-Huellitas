@@ -47,12 +47,12 @@ get_header(); ?>
 
 <div class="contacto clearfix" id="contacto"><!-- CONTACTO -->
     <div class="form eight columns">
-        <form action="/" method="post">
-            <input type="text" name="name" value="" size="40" placeholder="nombre" />
-            <input type="email" name="email" value="" size="40" placeholder="su correo electrónico" />
-            <textarea name="message" rows="5" placeholder="escribe tu mensaje..."></textarea>
+        <form id="contactForm" action="/contacto" method="post" enctype="multipart/form-data">
+            <input id="name" type="text" name="name" value="" size="40" placeholder="nombre" />
+            <input id="email" type="email" name="email" value="" size="40" placeholder="su correo electrónico" />
+            <textarea id="message" name="message" rows="5" placeholder="escribe tu mensaje..."></textarea>
             <input class="button" type="submit" value="enviar mi mensaje" />
-        </form>        
+        </form>      
     </div>
     <div class="info seven columns">
         <h4>Horarios Alternativos</h4>
