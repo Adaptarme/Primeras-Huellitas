@@ -21,29 +21,17 @@ get_header(); ?>
     <div class="five columns">
         <i class="fa fa-check"></i>
         <h3>Profesionales</h3>
-        <p>Nuestro personal está compuesto por profesoras en Educación Inicial.</p>
+        <p>Profesoras en Educación Inicial seleccionadas cuidadosamente con la preparación necesaria.</p>
     </div>
         <div class="five columns">
-        <i class="fa fa-star"></i>
-        <h3>Refrigerio</h3>
-        <p>Tenemos cocina propia dónde se preparan el desayuno (9.30 hs.) y el resfuerzo (11 hs.) para los niños.</p>
+        <i class="fa fa-clock-o"></i>
+        <h3>Horarios</h3>
+        <p>Los niños ingresan en distintos horarios, por la mañana y la tarde de lunes a viernes.</p>
     </div>
     <div class="five columns">
-        <i class="fa fa-heart"></i>
-        <h3>Videovigilania</h3>
-        <p>Nuestras instalaciones cuentan con cámaras de video vigilancia y supervisión de los centros mediante circuito cerrado, a nivel interno.</p>
-    </div>
-        <div class="five columns">
-        <h3>Profesionales</h3>
-        <p>Nuestro personal está compuesto por profesoras en Educación Inicial.</p>
-    </div>
-        <div class="five columns">
+        <i class="fa fa-cutlery"></i>
         <h3>Refrigerio</h3>
-        <p>Tenemos cocina propia dónde se preparan el desayuno (9.30 hs.) y el resfuerzo (11 hs.) para los niños.</p>
-    </div>
-    <div class="five columns">
-        <h3>Videovigilania</h3>
-        <p>Nuestras instalaciones cuentan con cámaras de video vigilancia y supervisión de los centros mediante circuito cerrado, a nivel interno.</p>
+        <p>Tenemos cocina propia dónde se preparan el desayuno y el resfuerzo para los niños.</p>
     </div>
 </div><!-- /SERVICIO -->
 
@@ -67,6 +55,8 @@ get_header(); ?>
         </form>        
     </div>
     <div class="info seven columns">
+        <h4>Horarios Alternativos</h4>
+        <p>Los niños ingresan en distintos horarios (8:00/9:00) de la mañana y finaliza a las 12:30. Por la tarde se atiende a los alumnos desde las 18:00 a las 21 hs, de lunes a viernes.</p>
         <h4>¿Quieres saber más?</h4>
         <p>Por favor, no dude en contactar con nosotros. Rellene el formulario a la izquierda, y nos pondremos en contacto con usted lo antes posible. ¡Gracias!</p>
     </div>
