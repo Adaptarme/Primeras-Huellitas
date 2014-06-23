@@ -18,7 +18,7 @@
 <!--<![endif]-->
 <head>
     <title><?php wp_title('-'); ?></title>
-    <meta name="description" content="Primeras Huellitas es un Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
+    <meta name="description" content="Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
     <meta name="author" content="Adaptar.ME">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/base.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/skeleton.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.flexslider.css">
-    <link rel="stylesheet/less" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/layout.less">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 <body>
