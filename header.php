@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/skeleton.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.flexslider.css">
     <link rel="stylesheet/less" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/layout.less">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 <body>
     <div class="background-header">
