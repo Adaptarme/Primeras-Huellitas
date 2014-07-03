@@ -31,37 +31,28 @@ function mostrar_menu($theme_location = '') {
 }
 
 /**
- * Filters wp_title to print a neat <title> tag based on what is being viewed.
+ * Crear un texto para el title con un formato agradable y más específico para 
+ * la salida de la cabeza del documento, sobre la base de la vista actual.
  *
- * @param string $title Default title text for current view.
- * @param string $sep Optional separator.
- * @return string The filtered title.
+ * @since Primeras Huellitas 1.0
+ * 
+ * @param string $title Titulo de la página.
+ * @return string El título filtrado.
  */
-function theme_ph_wp_title( $title, $sep ) {
-    if ( is_feed() ) {
-        return $title;
+function ph_wp_title( $title ) {
+    global $paged, $page;
+
+    if ( is_feed() || is_home() || is_front_page() ) {
+        return  get_bloginfo( 'name', 'display' );
+    }
+
+    if ( $paged >= 2 || $page >= 2 ) {
+        $title = "$title / " . sprintf( __( 'Página %s', 'ph' ), max( $paged, $page ) );
     }
     
-    global $page, $paged;
-
-    // Add the blog name
-    $title .= get_bloginfo( 'name', 'display' );
-
-    // Add the blog description for the home/front page.
-    $site_description = get_bloginfo( 'description', 'display' );
-    if ( $site_description && ( is_home() || is_front_page() ) ) {
-        $title .= " $sep $site_description";
-    }
-
-    // Add a page number if necessary:
-    if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-        $title .= " $sep " . sprintf( __( 'Page %s', '_s' ), max( $paged, $page ) );
-    }
-
-    return $title;
+    return trim( $title );
 }
-add_filter( 'wp_title', 'theme_ph_wp_title', 10, 2 );
-
+add_filter( 'wp_title', 'ph_wp_title', 10, 2 );
 
 function view_site_description(){
     echo get_bloginfo( 'description', 'display' );

@@ -17,7 +17,7 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-    <title><?php wp_title('-'); ?></title>
+    <title><?php wp_title(''); ?></title>
     <meta name="description" content="Proyecto Educativo que representa para el niño la posibilidad de ampliar su relación con el mundo." />
     <meta name="author" content="Adaptar.ME">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
