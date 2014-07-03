@@ -1,4 +1,12 @@
 <?php
+/**
+ * El archivo principal de plantilla
+ *
+ * @package WordPress
+ * @subpackage Primeras-Huellitas
+ * @since Primeras Hullitas 1.0
+ */
+
 get_header(); ?>
 
 <div class="flexslider clearfix">
