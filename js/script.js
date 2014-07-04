@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
   var ajaxUrl = 'wp-admin/admin-ajax.php';
