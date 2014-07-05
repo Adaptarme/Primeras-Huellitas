@@ -50,6 +50,37 @@ function ph_wp_title( $title ) {
 }
 add_filter( 'wp_title', 'ph_wp_title', 10, 2 );
 
+/**
+ * Funcion para enviar el email de contacto.
+ *
+ * @since Primeras Huellitas 1.0
+ * 
+ * @uses str_replace
+ * @uses phpversion
+ * @uses mail
+ * 
+ * @return string Mensaje para el usuario que envio el email
+ */
+function send_email_contact() {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $content = $_POST['content'];
+
+    if ( $name !== '' && $email !== '' ) :
+        $to = get_bloginfo( 'admin_email' ); // Destinatario/s del correo.
+        $subject = $name; // Título del correo electrónico a enviar.
+        $message = str_replace( "\n.", "\n..", $content );
+        $headers = 'From: ' . $email . "\r\n" .
+                   'Reply-To: ' . $email . "\r\n" .
+                   'X-Mailer: PHP/' . phpversion();
+        if ( mail( $to, $subject, $message, $headers ) ) // Enviar correo
+            echo '<strong>Felicidades</strong> , tu mensaje fue enviado! :)';
+    endif;
+    
+    die(); // detener la ejecución del script
+}
+add_action( 'wp_ajax_send_email', 'send_email_contact' ); // ajax para los usuarios registrados
+add_action( 'wp_ajax_nopriv_send_email', 'send_email_contact' ); // ajax for not logged in users
 
 // Widgets
 include get_template_directory() . '/inc/widgets.php';
