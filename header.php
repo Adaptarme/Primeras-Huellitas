@@ -50,5 +50,5 @@
         </header>
     </div>
 
-    <div class="container"><!-- CONTENEDOR -->
-        <div class="clearfix" role="main"><!-- CONTENIDO -->
+    <div class="container">
+        <div class="clearfix" role="main">
