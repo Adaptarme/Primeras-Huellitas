@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Indie+Flower'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Nunito:300'>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/base.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/skeleton.css">

@@ -8,7 +8,6 @@ Description: Primeras Huellitas es un tema de WordPress para el jardin maternal 
 */
 
 body { background: #f7f8fa url('./img/dot-pattern.gif'); }
-h1, h2, h3, h4, h5, h6 { font-family: 'Indie Flower', cursive; }
 
 .background-header{
 	position: fixed;
@@ -28,13 +27,12 @@ header[role="banner"] h1 {
 	background: url('./img/background-logo.png') no-repeat 0 0;
 	width: 394px;
 	font-size: 64px;
-	line-height: 110px;
+	line-height: 130px;
 }
 header[role="banner"] h1 a { padding: 75px; }
 header[role="banner"] h1 a img { width: 240px; }
 header[role="banner"] nav[role="navigation"] {
-	font-family: 'Indie Flower', cursive;
-	font-size: 24px;
+	font-size: 20px;
 	padding: 5px 5px 4px 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -75,11 +73,10 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	    -ms-box-sizing: border-box;
-	     -o-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 .titulo h2 {
-	font-size: 30px;
+	font-size: 24px;
 	color: #0082c0;
 	margin-bottom: 0;
 	line-height: 1;
@@ -120,9 +117,11 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	display: block;
 	cursor: pointer;
 	text-indent: -9999px;
-	-webkit-border-radius: 30px;
-	        border-radius: 30px;
 	background-clip: padding-box;
+	-webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+	        border-radius: 30px;
 }
 .flexslider .flex-control-paging li a:hover,
 .flexslider .flex-control-paging li a.flex-active{ background: #f8c6c1; }
@@ -137,7 +136,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	margin-bottom: 45px;
 	padding-top: 8px;
 	line-height: 125px;
-	font-size: 35px;
+	font-size: 24px;
 	text-align: center;
 	font-style: italic;
 	text-transform: uppercase;
@@ -147,19 +146,17 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	color: #f7f8fa;
 }
 .servicio p,
-.equipo p { font-family: 'Indie Flower', cursive; font-size: 17px; }
+.equipo p { font-size: 14px; }
 .nosotros {
 	text-align: center;
-	font-family: 'Indie Flower', cursive;
 	padding: 0 20px;
 	margin-top: 20px;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	    -ms-box-sizing: border-box;
-	     -o-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-.nosotros p { font-size: 33px; line-height: 40px; text-align: center; }
+.nosotros p { font-size: 30px; line-height: 40px; text-align: center; }
 .nosotros p em { color: #e93478; font-size: 22px; }
 .servicio { text-align: center; padding: 0 10px; margin-bottom: 40px; }
 .servicio i { color: #F8C6C1; font-size: 80px; margin-bottom: 30px; }
@@ -172,7 +169,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	display: block;
 	z-index: 0;
 }
-.contacto p { color: #fff; font-family: 'Indie Flower', cursive; font-size: 17px; }
+.contacto p { color: #fff; font-size: 14px; }
 .contacto .form textarea, .contacto .form input {
 	font-style: italic;
 	font-size: 16px;
@@ -184,15 +181,12 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	-webkit-border-radius: 5px;
 	   -moz-border-radius: 5px;
 	    -ms-border-radius: 5px;
-	     -o-border-radius: 5px;
 	        border-radius: 5px;
-	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	    -ms-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	     -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	        box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	    -ms-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	        box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
 }
-.contacto .info { font-family: 'Indie Flower', cursive; }
 .contacto .info h4 { color: White; }
 .contacto input.button {
 	background: #c3d982;
@@ -200,17 +194,17 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	cursor: pointer;
 	-webkit-text-shadow: 0 1px 0 #f7f8fa;
 	   -moz-text-shadow: 0 1px 0 #f7f8fa;
+	   	-ms-text-shadow: 0 1px 0 #f7f8fa;
 	        text-shadow: 0 1px 0 #f7f8fa;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
-		 -o-transition: all .3s ease-in-out;
+	   	-ms-transition: all .3s ease-in-out;
 	        transition: all .3s ease-in-out;
 }
 .contacto input.button:hover { background: #b5d335; }
 .descripcion {
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1.3em;
-	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	padding: 0 10%;
 	margin-bottom: 40px;
@@ -234,13 +228,16 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	background: #f7f8fa;
 	text-align: center;
 	padding-bottom: 35px;
-	font-size: 16px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
+	font-size: 15px;
 	background-clip: padding-box;
-	-webkit-box-shadow: 0 3px 0 rgba(0,0,0,.06);
-	-moz-box-shadow: 0 3px 0 rgba(0,0,0,.06);
-	box-shadow: 0 3px 0 rgba(0,0,0,.06)
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	    -ms-border-radius: 6px;
+			border-radius: 6px;
+	-webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, .06);
+	   -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, .06);
+	    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, .06);
+	        box-shadow: 0 3px 0 rgba(0, 0, 0, .06);
 }
 
 @media all and (max-width: 600px){
@@ -255,7 +252,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	padding-top: 35px;
 	margin-top: -20px;
 	background: url('./img/headings-sprite.png') no-repeat center -318px;
-	font-size: 22px;
+	font-size: 16px;
 	color: #f7f8fa;
 	font-style: italic;
 	margin-bottom: 25px;
