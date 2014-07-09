@@ -74,7 +74,7 @@ function send_email_contact() {
                    'Reply-To: ' . $email . "\r\n" .
                    'X-Mailer: PHP/' . phpversion();
         if ( mail( $to, $subject, $message, $headers ) ) // Enviar correo
-            echo '<strong>Felicidades</strong> , tu mensaje fue enviado! :)';
+            echo 'Felicidades, tu mensaje fue enviado! :)';
     endif;
     
     die(); // detener la ejecución del script

@@ -170,6 +170,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 }
 .contacto p { color: #fff; font-size: 14px; }
 .contacto .form textarea, .contacto .form input {
+	width: 100% !important;
 	font-style: italic;
 	font-size: 16px;
 	color: #595959;
@@ -177,6 +178,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	background-color: #fff;
 	padding: 10px;
 	border: 0;
+	box-sizing: border-box;
 	-webkit-border-radius: 5px;
 	   -moz-border-radius: 5px;
 	    -ms-border-radius: 5px;
@@ -187,10 +189,14 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	        box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
 }
 .contacto .info h4 { color: White; }
-.contacto input.button {
+.contacto button.button {
+	font-size: 16px;
+	padding: 10px;
 	background: #c3d982;
 	color: #e93478;
+	border: none;
 	cursor: pointer;
+	border-radius: 3px;
 	-webkit-text-shadow: 0 1px 0 #f7f8fa;
 	   -moz-text-shadow: 0 1px 0 #f7f8fa;
 	   	-ms-text-shadow: 0 1px 0 #f7f8fa;
@@ -200,7 +206,7 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	   	-ms-transition: all .3s ease-in-out;
 	        transition: all .3s ease-in-out;
 }
-.contacto input.button:hover { background: #b5d335; }
+.contacto button.button:hover { background: #b5d335; }
 .descripcion {
 	font-size: 18px;
 	line-height: 1.3em;
@@ -263,3 +269,9 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	margin-bottom: 10px;
 }
 .map .address div strong { font-weight: 400; color: #e93478; }
+
+.alert { color: #fff; display: none; text-align: right; float: right; font-size: 14px; }
+
+input.error,
+textarea.error { border: 1px solid red!important; margin-bottom: 5px !important ; }
+label.error { color: #eeeeee; margin-bottom: 15px !important; }

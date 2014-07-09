@@ -2,32 +2,44 @@ $(document).ready(function() {
 
   var ajaxUrl = 'wp-admin/admin-ajax.php';
   
-  $("#contactForm").validate({
+  $('#formContact').validate({
     
     rules: {
       name: { required: true, minlength: 2 },
       email: { required: true, email: true },
-      message: { required: true, minlength: 2 }
+      content: { required: true, minlength: 2 }
     },
-    
+
     messages: {
-      name: "Debe introducir su nombre.",
-      email : "Debe introducir un email válido.",
-      message : "El campo Mensaje es obligatorio.",
+      name: 'Debe introducir su nombre.',
+      email: 'Debe introducir un email válido.',
+      content: 'El mensaje es obligatorio.',
     },
     
-    submitHandler: function(form) { // en el evento submit del fomulario
-      //var urlForm = $(this).attr('action');  // la url del action del formulario
-      var datosForm = $(this).serialize(); // los datos del formulario
+    submitHandler: function (form) { // en el evento submit del fomulario
+      event.preventDefault(); // Evitamos que el formulario se envíe
       $.ajax({
-        type: "POST",
+        type: 'POST',
+        action: 'send_email',
         url: ajaxUrl,
-        data: { "action": "send_message_contact" },
-        //beforeSend: function() { $("#send").val('Enviando...'); },
-        //success: function(data) { $('#message').append(data); }
-        success: function(data){ alert(data); }
+        data: {
+          action: 'send_email',
+          name: $('#name').val(),
+          email: $('#email').val(),
+          content: $('#content').val()
+        },
+        success: function(msg) {
+          var alert = '.alert';
+          $(form)[0].reset(); // Limpiamos los campos del form
+          $(alert).html(msg).show();
+          setTimeout(function(){ $(alert).hide(); }, 6000);
+        },
+        error: function(msg) {
+          alert(msg);
+        }
       });
     }
+
   }); // .validate
 
   $('.flexslider').flexslider({
