@@ -62,19 +62,25 @@ add_filter( 'wp_title', 'ph_wp_title', 10, 2 );
  * @return string Mensaje para el usuario que envio el email
  */
 function send_email_contact() {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $content = $_POST['content'];
+    $subject = $_POST['name']; // Asunto del correo electrónico a enviarse. 
+    $from = $_POST['email'];
+    $message = $_POST['content']; // Mensaje a enviar.
 
-    if ( $name !== '' && $email !== '' ) :
-        $to = get_bloginfo( 'admin_email' ); // Destinatario/s del correo.
-        $subject = $name; // Título del correo electrónico a enviar.
-        $message = str_replace( "\n.", "\n..", $content );
-        $headers = 'From: ' . $email . "\r\n" .
-                   'Reply-To: ' . $email . "\r\n" .
-                   'X-Mailer: PHP/' . phpversion();
-        if ( mail( $to, $subject, $message, $headers ) ) // Enviar correo
+    if ( $from !== '' && $message !== '' ) :
+        $to = get_bloginfo( 'admin_email' ); // Receptor o receptores del correo.
+        
+        $message = str_replace("\n.", "\n..", $message);
+        $message = wordwrap( $message, 70, "\r\n" );
+        
+        $headers  = 'From: ' . $from . "\r\n".
+        $headers .= 'Reply-To: ' . $from . "\r\n";
+        $headers .= 'X-Mailer: PHP/' . phpversion();
+        
+        if ( @mail( $to, $subject, $message, $headers ) ) { // Enviar correo
             echo 'Felicidades, tu mensaje fue enviado! :)';
+        } else {
+            echo 'Lo sentimos, no podemos enviar su mail! :(';
+        }
     endif;
     
     die(); // detener la ejecución del script
