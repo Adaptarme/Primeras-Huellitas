@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Primeras Huellitas
+ * @subpackage Primeras-Huellitas
  * @since Primeras Huellitas 1.0
  */
 
