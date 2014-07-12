@@ -51,8 +51,8 @@ $(document).ready(function() {
   });
 
   /* Page Scroll to id fn call */
-  $("#navigation-menu a, a[href='#top'], a[rel='m_PageScroll2id']").mPageScroll2id({
-    highlightSelector:"#navigation-menu a"
+  $("#nav a, a[href='#top'], a[rel='m_PageScroll2id']").mPageScroll2id({
+    highlightSelector:"#nav a"
   });
   
 });

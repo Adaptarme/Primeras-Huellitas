@@ -36,9 +36,9 @@
         <header id="header" role="banner">
             <div class="container">
                 <div class="sixteen columns">
-                    <nav id="navigation-menu" class="clearfix der" role="navigation">
+                    <nav id="nav" class="clearfix der" role="navigation">
                         <h3 class="ocultar">Menu</h3>
-                        <ul id="navigation-menu">
+                        <ul>
                             <li><a href="#nosotros">Nosotros</a></li>
                             <li><a href="#servicios">Servicios</a></li>
                             <li><a href="#contacto">Contacto</a></li>

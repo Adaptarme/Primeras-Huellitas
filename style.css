@@ -9,6 +9,8 @@ Description: Primeras Huellitas es un tema de WordPress para el jardin maternal 
 
 body { background: #f7f8fa url('./img/dot-pattern.gif'); }
 
+/* Header
+=================================================*/
 .background-header{
 	position: fixed;
 	z-index: 30;
@@ -30,29 +32,23 @@ body { background: #f7f8fa url('./img/dot-pattern.gif'); }
 }
 #header h1 a { padding: 75px; }
 #header h1 a img { width: 240px; }
-#header nav[role="navigation"] {
+
+/* Nav
+=================================================*/
+#nav {
 	font-size: 20px;
 	padding: 5px 5px 4px 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-#header nav[role="navigation"] ul > li {
-	float: left;
-	padding: 0;
-	margin: 5px 15px;
-}
-#header nav[role="navigation"] ul > li a {
-	float: left;
-	color: #595959;
-}
-#header nav[role="navigation"] ul > li a:hover,
-#header nav[role="navigation"] ul > li a.mPS2id-highlight {
-	color:#e93478;
-}
-#header nav[role="navigation"] .current-menu-item > a,
-#header nav[role="navigation"] .current-menu-ancestor > a,
-#header nav[role="navigation"] .current_page_item > a,
-#header nav[role="navigation"] .current_page_ancestor > a {
+#nav ul > li { float: left; padding: 0; margin: 5px 15px; }
+#nav ul > li a { float: left; color: #595959; }
+#nav ul > li a:hover,
+#nav ul > li a.mPS2id-highlight { color:#e93478; }
+#nav .current-menu-item > a,
+#nav .current-menu-ancestor > a,
+#nav .current_page_item > a,
+#nav .current_page_ancestor > a {
 	color: #e93478;
 }
 div[role="main"] { background-color: #f7f8fa; padding-top: 55px; }
