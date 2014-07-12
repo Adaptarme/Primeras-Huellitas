@@ -51,13 +51,25 @@ body { background: #f7f8fa url('./img/dot-pattern.gif'); }
 #nav .current_page_ancestor > a {
 	color: #e93478;
 }
+
+/* Row
+=================================================*/
 div[role="main"] { background-color: #f7f8fa; padding-top: 55px; }
+
+/* Aside
+=================================================*/
 div[role="complementary"] aside { margin-top: 10px; }
 div[role="complementary"] aside h3 { font-size: 22px; line-height: 1em; margin: 0; }
 div[role="complementary"] aside hr { margin-bottom: 10px; }
+
+/* Footer
+=================================================*/
 footer[role="contentinfo"] { background-color: #f7f8fa; padding: 20px 0; text-align: center; }
 footer[role="contentinfo"] p { line-height: 0; margin: 0; font-size: 11px; }
 footer[role="contentinfo"] p span{ color: #e74c3c; }
+
+/* Other
+=================================================*/
 .ocultar { font-size: 0; display: none; margin: 0; padding: 0; line-height: 0; }
 .der { float: right !important; }
 .izq { float: left !important; }
@@ -88,6 +100,8 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 .error { color: red; }
 .exito { color: green; }
 
+/* FlexSlider
+=================================================*/
 .flexslider { background: #f8c6c1; margin-bottom: 40px; }
 .flexslider .slides { zoom: 1; }
 /*.flexslider .slides li img { height: 600px; }*/
@@ -126,6 +140,8 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 .equipo,
 .contacto { padding: 30px; }
 
+/* .servicio
+=================================================*/
 .servicio h2, .equipo h2 {
 	margin-top: 30px;
 	margin-bottom: 45px;
@@ -142,6 +158,9 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 }
 .servicio p,
 .equipo p { font-size: 14px; }
+
+/* .nosotros
+=================================================*/
 .nosotros {
 	text-align: center;
 	padding: 0 20px;
@@ -153,6 +172,9 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 }
 .nosotros p { font-size: 30px; line-height: 40px; text-align: center; }
 .nosotros p em { color: #e93478; font-size: 22px; }
+
+/* .servicio
+=================================================*/
 .servicio { text-align: center; padding: 0 10px; margin-bottom: 40px; }
 .servicio i { color: #F8C6C1; font-size: 80px; margin-bottom: 30px; }
 .servicio h3 { font-style: italic; font-size: 28px; color: #e93478; }
@@ -164,6 +186,9 @@ footer[role="contentinfo"] p span{ color: #e74c3c; }
 	display: block;
 	z-index: 0;
 }
+
+/* .contacto
+=================================================*/
 .contacto p { color: #fff; font-size: 14px; }
 .contacto .form textarea, .contacto .form input {
 	width: 100% !important;
