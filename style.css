@@ -14,13 +14,13 @@ body { background: #f7f8fa url('./img/dot-pattern.gif'); }
 	z-index: 30;
 	display: block;
 	width: 100%;
-	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	    -ms-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	        box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	    -ms-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	        box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
 }
-header[role="banner"] { background-color: #f7f8fa }
-header[role="banner"] h1 {
+#header { background-color: #f7f8fa }
+#header h1 {
 	padding-top: 10px;
 	position: absolute;
 	background: url('./img/background-logo.png') no-repeat 0 0;
@@ -28,31 +28,31 @@ header[role="banner"] h1 {
 	font-size: 64px;
 	line-height: 130px;
 }
-header[role="banner"] h1 a { padding: 75px; }
-header[role="banner"] h1 a img { width: 240px; }
-header[role="banner"] nav[role="navigation"] {
+#header h1 a { padding: 75px; }
+#header h1 a img { width: 240px; }
+#header nav[role="navigation"] {
 	font-size: 20px;
 	padding: 5px 5px 4px 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-header[role="banner"] nav[role="navigation"] ul > li {
+#header nav[role="navigation"] ul > li {
 	float: left;
 	padding: 0;
 	margin: 5px 15px;
 }
-header[role="banner"] nav[role="navigation"] ul > li a {
+#header nav[role="navigation"] ul > li a {
 	float: left;
 	color: #595959;
 }
-header[role="banner"] nav[role="navigation"] ul > li a:hover,
-header[role="banner"] nav[role="navigation"] ul > li a.mPS2id-highlight {
+#header nav[role="navigation"] ul > li a:hover,
+#header nav[role="navigation"] ul > li a.mPS2id-highlight {
 	color:#e93478;
 }
-header[role="banner"] nav[role="navigation"] .current-menu-item > a,
-header[role="banner"] nav[role="navigation"] .current-menu-ancestor > a,
-header[role="banner"] nav[role="navigation"] .current_page_item > a,
-header[role="banner"] nav[role="navigation"] .current_page_ancestor > a {
+#header nav[role="navigation"] .current-menu-item > a,
+#header nav[role="navigation"] .current-menu-ancestor > a,
+#header nav[role="navigation"] .current_page_item > a,
+#header nav[role="navigation"] .current_page_ancestor > a {
 	color: #e93478;
 }
 div[role="main"] { background-color: #f7f8fa; padding-top: 55px; }

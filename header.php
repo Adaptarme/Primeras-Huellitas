@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="background-header">
-        <header role="banner">
+        <header id="header" role="banner">
             <div class="container">
                 <div class="sixteen columns">
                     <nav id="navigation-menu" class="clearfix der" role="navigation">

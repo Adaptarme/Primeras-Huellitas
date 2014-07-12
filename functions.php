@@ -76,7 +76,7 @@ function send_email_contact() {
         $headers .= 'Reply-To: ' . $from . "\r\n";
         $headers .= 'X-Mailer: PHP/' . phpversion();
         
-        if ( @mail( $to, $subject, $message, $headers ) ) { // Enviar correo
+        if ( imap_mail( $to, $subject, $message, $headers ) ) { // Enviar correo
             echo 'Felicidades, tu mensaje fue enviado! :)';
         } else {
             echo 'Lo sentimos, no podemos enviar su mail! :(';
