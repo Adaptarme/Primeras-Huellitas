@@ -54,7 +54,7 @@ body { background: #f7f8fa url('./img/dot-pattern.gif'); }
 
 /* Row
 =================================================*/
-div[role="main"] { background-color: #f7f8fa; padding-top: 55px; }
+.row { background-color: #f7f8fa; padding-top: 55px; }
 
 /* Aside
 =================================================*/

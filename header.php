@@ -51,4 +51,4 @@
     </div>
 
     <div class="container">
-        <div class="clearfix" role="main">
+        <div class="row clearfix" role="main">
